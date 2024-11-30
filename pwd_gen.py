@@ -48,3 +48,4 @@ digit = input('do you want numbers in your password: ').lower() == 'y'
 special = input('do you want special in your password: ').lower() == 'y'
 pwd = genPass(int(min_len),digit,special)
 print(pwd)
+
